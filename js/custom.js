@@ -19,7 +19,7 @@
     $('body').vegas({
         slides: [
             { src: 'images/we.jpeg' },
-            { src: 'images/slide-image02.jpg' }
+            { src: 'images/lotso.jpeg' }
         ],
         timer: false,
         transition: [ 'zoomOut', ]

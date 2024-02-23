@@ -3,7 +3,7 @@
 $(document).ready(function() {
 						   
 	$(".countdown").countdown({
-				date: "09 February 2024 12:00:00",
+				date: "16 February 2024 22:00:00",
 				format: "on"
 			},
 			

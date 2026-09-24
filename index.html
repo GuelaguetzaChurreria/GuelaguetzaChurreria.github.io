@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Adamari 💙</title>
 <!--
 
@@ -15,7 +14,7 @@ https://templatemo.com/tm-521-get-ready
      <meta name="description" content="">
      <meta name="keywords" content="">
      <meta name="team" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/vegas.min.css">
@@ -24,10 +23,40 @@ https://templatemo.com/tm-521-get-ready
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
+     <style>
+          *, *::before, *::after { box-sizing: border-box; }
+          html { width: 100%; min-height: 100%; overflow-x: hidden; }
+          body { width: 100%; min-height: 100vh; overflow-x: hidden; overflow-y: auto; }
+          img, video, iframe { max-width: 100%; }
+          #home { min-height: 100vh; padding: 48px 0; display: flex; align-items: center; }
+          #home > .container { width: 100%; }
+          .home-info { width: 100%; height: auto; min-height: calc(100vh - 96px); }
+          .home-info h6 { font-size: clamp(1rem, 2.5vw, 1.35rem); line-height: 1.6; }
+          .home-info img { display: block; width: auto; height: auto; max-width: min(100%, 720px); max-height: 58vh; margin: 0 auto; object-fit: contain; }
+          .countdown { display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: clamp(4px, 2vw, 16px); width: 100%; padding: 0; margin: 28px 0 0; list-style: none; }
+          .countdown li { display: block; flex: 1 1 0; min-width: 0; margin: 0; text-align: center; }
+          .countdown span, .countdown h3 { overflow-wrap: anywhere; }
+          .countdown span { font-size: clamp(1rem, 5vw, 1.6rem); }
+          .countdown h3 { font-size: clamp(0.65rem, 2.8vw, 0.9rem); }
+          .google-map iframe { width: 100%; min-height: 240px; border: 0; }
+          @media (max-width: 767.98px) {
+               #home { min-height: 100svh; padding: 32px 0; }
+               .home-info { min-height: calc(100svh - 64px); }
+               #home .container { padding-left: 16px; padding-right: 16px; }
+               .home-info h6 { margin-bottom: 18px; }
+               .home-info img { max-height: 48svh; }
+               .countdown { gap: 8px; }
+               .countdown li { flex: 1 1 calc(50% - 8px); }
+               .countdown h3 { font-size: 1rem; }
+               .menu-items .row > [class*="col-"] { margin-bottom: 24px; }
+          }
+          @media (max-width: 360px) {
+               .countdown li { flex-basis: 100%; }
+          }
+     </style>
 </head>
 <body>
 
@@ -187,3 +216,8 @@ https://templatemo.com/tm-521-get-ready
 
 </body>
 </html>
+
+
+
+
+

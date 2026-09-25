@@ -36,8 +36,8 @@ https://templatemo.com/tm-521-get-ready
           .home-info { width: 100%; height: auto; min-height: calc(100vh - 96px); }
           .home-info h6 { font-size: clamp(1rem, 2.5vw, 1.35rem); line-height: 1.6; }
           .home-info img { display: block; width: auto; height: auto; max-width: min(100%, 720px); max-height: 58vh; margin: 0 auto; object-fit: contain; }
-          .countdown { display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: clamp(4px, 2vw, 16px); width: 100%; padding: 0; margin: 28px 0 0; list-style: none; }
-          .countdown li { display: block; flex: 1 1 0; min-width: 0; margin: 0; text-align: center; }
+          .countdown { display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: clamp(8px, 1.5vw, 24px); width: fit-content; max-width: 100%; padding: 0; margin: 28px auto 0; list-style: none; }
+          .countdown li { display: block; flex: 0 1 100px; width: 100px; min-width: 0; margin: 0; text-align: center; }
           .countdown span, .countdown h3 { overflow-wrap: anywhere; }
           .countdown span { font-size: clamp(1rem, 5vw, 1.6rem); }
           .countdown h3 { font-size: clamp(0.65rem, 2.8vw, 0.9rem); }
@@ -48,13 +48,13 @@ https://templatemo.com/tm-521-get-ready
                #home .container { padding-left: 16px; padding-right: 16px; }
                .home-info h6 { margin-bottom: 18px; }
                .home-info img { max-height: 48svh; }
-               .countdown { gap: 8px; }
-               .countdown li { flex: 1 1 calc(50% - 8px); }
+               .countdown { flex-wrap: nowrap; gap: clamp(4px, 2vw, 12px); margin: 18px auto 0; }
+               .countdown li { flex: 0 1 76px; width: 76px; }
                .countdown h3 { font-size: 1rem; }
                .menu-items .row > [class*="col-"] { margin-bottom: 24px; }
           }
           @media (max-width: 360px) {
-               .countdown li { flex-basis: 100%; }
+               .countdown li { flex-basis: 68px; width: 68px; }
           }
      </style>
 </head>
@@ -216,6 +216,9 @@ https://templatemo.com/tm-521-get-ready
 
 </body>
 </html>
+
+
+
 
 
 
